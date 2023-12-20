@@ -7,6 +7,7 @@ import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { UserAuthModule } from './user-auth/user-auth.module';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { DashboardComponent } from './component/dashboard/dashboard.component';
     BrowserModule,
     AppRoutingModule,
     UserAuthModule,
+    ReactiveFormsModule
     
   ],
   providers: [],
